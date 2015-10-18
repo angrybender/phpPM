@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/../../vendor/autoload.php';
+include __DIR__ . '/../../../../autoload.php';
 $assign = \Angrybender\Pattern\Fabric::createAssign();
 
 $exampleSuccess = [
