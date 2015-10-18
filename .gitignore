@@ -1,2 +1,5 @@
 .idea
 vendor
+from_composer
+puphpet
+Vagrantfile
