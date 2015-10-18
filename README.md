@@ -213,6 +213,10 @@ var_export($russians)
 DI-available, нужно только сделать сервис для `new PhpParser\Parser(new PhpParser\Lexer)`. 
 Затем ты можешь инжектить `Angrybender\Pattern\Assign` и `Angrybender\Pattern\Matching` через свой любимый DI движок.
 
+**achtung**
+
+Разобранный паттерн кешируется, поэтому для `Angrybender\Pattern\Assign` и `Angrybender\Pattern\Matching` надо создавать новый инстанс для каждого отличающегося паттерна или пулла обработчиков!
+
 ## А тесты?
 
 Все [по-взрослому](https://github.com/angrybender/phpPM/tree/master/tests).
