@@ -1,0 +1,20 @@
+{
+    "name": "angrybender/pattern",
+    "description": "Pattern matching and assign",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6",
+        "nikic/php-parser": "1.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Angrybender\\": "Angrybender/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
