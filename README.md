@@ -153,7 +153,7 @@ $list = [
 	],
 ];
 
-$russians = array_filter( $matching->setObject(new Pull)->execute($list);
+$russians = array_filter( $matching->setObject(new Pull)->execute($list) );
 
 var_export($russians)
 
