@@ -8,7 +8,7 @@
 
 namespace Angrybender\Pattern\Examples;
 
-include __DIR__ . '/../../vendor/autoload.php';
+include __DIR__ . '/../../../../autoload.php';
 
 $matching = \Angrybender\Pattern\Fabric::createMatching();
 $assign = \Angrybender\Pattern\Fabric::createAssign();

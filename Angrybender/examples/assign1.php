@@ -6,7 +6,7 @@
  * Time: 20:14
  */
 
-include __DIR__ . '/../../vendor/autoload.php';
+include __DIR__ . '/../../../../autoload.php';
 
 $assign = \Angrybender\Pattern\Fabric::createAssign();
 
