@@ -131,7 +131,7 @@ list(
 
 ```PHP
 class Pull {
-	public function extractOnly($user = [bio => ['country' => 'RU']])
+	public function extractOnly($user = ['bio' => ['country' => 'RU']])
 	{
 		return $user;
 	}
